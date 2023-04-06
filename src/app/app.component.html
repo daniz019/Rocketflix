@@ -1,0 +1,74 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="rocket-logo" [src]="Rocketflix">
+
+<h1 class="title">{{title}}</h1>
+
+<button class="primeiro-click"  (click)="buscarFilmes()" id="bottone1" [class.first-click]="firstClick"><img class="logo-button" [src]="Rocketflix"><strong>Encontrar filme</strong></button>
+
+
+
+  <div *ngIf="filmes.length">
+    <h2 class="movie-title">{{filmes[0].title}}</h2>
+    <p class="movie-subtitle">{{filmes[0].overview}}</p>
+    <img class="poster-movie"   [src]="'https://image.tmdb.org/t/p/w500' + filmes[0].poster_path" [alt]="filmes[0].title">
+   </div>
+
+  
+
+   <p class="subtitle-homepage" [ngClass]="{'subtitle-clicked': !firstClick}">
+    Clique em "Encontrar filme" que traremos informações <br>
+    de algum filme para você assistir hoje.
+  </p>
+  
+   
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>

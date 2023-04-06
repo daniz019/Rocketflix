@@ -1,0 +1,130 @@
+.rocket-logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFCF9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+#bottone1 {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    height: 60px;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #E9E6E3;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    text-align:end;
+    cursor: pointer;
+    transition: 0.4s;
+    
+   }
+   
+   #bottone1:hover {
+    box-shadow: 7px 5px 56px -14px #E9E6E3;
+   }
+   
+   #bottone1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #E9E6E3;
+   }
+
+   .logo-button {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 10px;
+    top: 2px;
+   }
+
+   .subtitle-homepage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFCF9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+   }
+   
+   #bottone1.first-click {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+   }
+
+   .subtitle-clicked {
+    margin-top: 400px;
+   }
+
+   .poster-movie {
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    width: 260px;
+    border-radius: 5px;
+   }
+
+   .movie-title {
+    position: absolute;
+    left: 40%;
+    top: 320px;
+    color: #FFFCF9;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+   }
+
+   .movie-subtitle {
+    position: absolute;
+    text-align: justify;
+    width: 430px;
+    color: #FFFCF9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    left: 40%;
+    top: 370px;
+   }
+
+ 
+
+
+ 
+  
+ 
+  
+  
+  
+
+ 
+  
+
+  
